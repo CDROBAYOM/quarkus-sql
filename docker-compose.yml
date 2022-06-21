@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  poc_quarkus:
+    container_name: pocquarkus
+    image: quarkus/poc-quarkus-jvm:latest
+    ports:
+      - 8080:8080
+    environment:
+      DB_USER: pocquarkus
+      DC_PWD: nestor12345678*
+      NAME_IP_HOST: srvpocquarkus.database.windows.net:1433
+      DATABASE: pocquarkusdb

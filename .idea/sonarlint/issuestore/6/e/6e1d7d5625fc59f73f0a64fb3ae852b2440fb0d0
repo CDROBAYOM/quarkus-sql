@@ -1,0 +1,6 @@
+
+c	java:S116"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§×í
+j
+java:S4144-"TUpdate this method so that its implementation is not identical to "save" on line 26.(ã¤ÚÖ
+J
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶
